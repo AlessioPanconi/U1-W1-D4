@@ -88,6 +88,7 @@ table {
   border-collapse: collapse;
   margin: 0 0;
   border: white;
+  border-bottom: 1.5px solid blue;
 }
 th {
   background-color: rgb(68, 152, 249);
@@ -98,9 +99,14 @@ th {
 tr {
   border: 0.5px solid grey;
   padding: 15px;
+  border-left: 0px;
+  border-right: 0px;
 }
 td {
   padding: 15px;
+}
+.color {
+  background-color: rgb(233, 229, 229);
 }
 
 aside {

@@ -1,0 +1,112 @@
+/* IMPOSTAZIONI GENERALI */
+* {
+  font-family: "Poppins", sans-serif;
+  margin-right: -4px;
+}
+
+#linea {
+  border: 0;
+  height: 5px;
+  background-color: transparent;
+}
+
+span {
+  color: purple;
+  font-weight: 600;
+}
+
+body {
+  background-image: url(../img/sfondo.png);
+  background-image: 90%;
+  padding: 20px;
+  max-width: 90%;
+  text-align: center;
+}
+/* HEADER */
+header {
+  text-align: center;
+  background-color: aqua;
+  margin-inline: auto;
+  color: white;
+  font-weight: 300;
+}
+code {
+  background-color: rgb(206, 206, 206);
+  border: 1px solid black;
+  border-radius: 10%;
+}
+header div {
+  padding: 20px;
+}
+header p {
+  padding: 10px;
+  padding-top: 20px;
+  font-size: 1.5em;
+}
+header li {
+  padding-block: 5px;
+}
+header li a {
+  color: white;
+}
+
+/* MAIN */
+
+main {
+  text-align: left;
+  margin-inline: auto;
+  background-color: white;
+}
+.ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+.ol {
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+main li {
+  padding-block: 5px;
+  padding-left: 30px;
+}
+
+main h1 {
+  padding-top: 20px;
+  padding-block: 20px;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+#didascalia {
+  padding-block: 15px;
+  color: grey;
+}
+main p {
+  padding-block: 10px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 0;
+  border: white;
+}
+th {
+  background-color: rgb(68, 152, 249);
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+tr {
+  border: 0.5px solid grey;
+  padding: 15px;
+}
+td {
+  padding: 15px;
+}
+
+aside {
+  padding: 20px;
+  max-width: 90%;
+  text-align: center;
+  margin-inline: auto;
+  background-color: white;
+}

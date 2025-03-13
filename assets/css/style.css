@@ -9,6 +9,9 @@
   height: 5px;
   background-color: transparent;
 }
+main {
+  padding: 15px;
+}
 
 span {
   color: purple;
@@ -34,6 +37,7 @@ code {
   background-color: rgb(206, 206, 206);
   border: 1px solid black;
   border-radius: 10%;
+  display: inline-block;
 }
 header div {
   padding: 20px;
@@ -45,6 +49,7 @@ header p {
 }
 header li {
   padding-block: 5px;
+  list-style: none;
 }
 header li a {
   color: white;
@@ -57,11 +62,11 @@ main {
   margin-inline: auto;
   background-color: white;
 }
-.ul {
+body .ul {
   list-style-type: disc;
   list-style-position: inside;
 }
-.ol {
+body .ol {
   list-style-type: decimal;
   list-style-position: inside;
 }
@@ -109,9 +114,33 @@ td {
   background-color: rgb(233, 229, 229);
 }
 
+section {
+  margin-top: 20px;
+  max-width: 100%;
+  padding: 5px;
+  background-color: rgb(212, 212, 212);
+  text-align: center;
+}
+h2 {
+  font-weight: 600;
+  font-size: xx-large;
+}
+section button {
+  background-color: aqua;
+  color: white;
+  width: 30%;
+  border: 0 white;
+  font-weight: 900;
+  margin-left: 5px;
+}
+section input {
+  width: 60%;
+  border: 0px white;
+}
+
 aside {
   padding: 20px;
-  max-width: 90%;
+  max-width: 100%;
   text-align: center;
   margin-inline: auto;
   background-color: white;
